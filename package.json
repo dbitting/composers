@@ -1,35 +1,39 @@
 {
-  "name" : "composers",
-  "version" : "0.1.2",
-  "description" : "Framework for abstracting nuances of asynchronous coding.",
-  "keywords" : ["node", "composer", "future", "promise", "graph", "scope", "async"],
-  "repository" : {
-    "type" : "git",
-    "url" : "http://github.com/Obvious/composers.git"
+  "name": "composers",
+  "version": "0.1.2",
+  "description": "Framework for abstracting nuances of asynchronous coding.",
+  "keywords": [
+    "node",
+    "composer",
+    "future",
+    "promise",
+    "graph",
+    "scope",
+    "async"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/Obvious/composers.git"
   },
-  "homepage" : "https://github.com/Obvious/composers",
-  "author" : {
-    "name" : "David Byttow",
-    "email" : "david@obvious.com",
-    "url" : "https://github.com/guitardave24"
-  },
-  "licenses": [{
-    "type": "Apache 2.0",
-    "url": "http://www.apache.org/licenses/LICENSE-2.0.html"
-  }],
+  "homepage": "https://github.com/Obvious/composers",
   "author": {
     "name": "David Byttow",
     "email": "guitardave@gmail.com",
     "url": "http://twitter.com/guitardave24"
   },
-  "main" : "./lib/composers.js",
+  "licenses": [
+    {
+      "type": "Apache 2.0",
+      "url": "http://www.apache.org/licenses/LICENSE-2.0.html"
+    }
+  ],
+  "main": "./lib/composers.js",
   "directories": {
     "lib": "./lib"
   },
   "dependencies": {
     "graphviz": "0.0.7",
-    "microtime": "0.3.1",
     "node-uuid": "1.3.3",
-    "q": "0.8.5"
+    "q": "~0.9.6"
   }
 }
